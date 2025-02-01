@@ -5,6 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $usuario = $_POST["usuario"];
     $clave = $_POST["clave"];
 
+    echo "Capturar Registro";
     echo "<h1>Los Datos Recepcionados son: </h1>";
     echo "Nombres: " . htmlspecialchars($nombres) . "<br>";
     echo "Apellidos: " . htmlspecialchars($apellidos) . "<br>";
@@ -16,3 +17,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
 ?>
+
+
+
